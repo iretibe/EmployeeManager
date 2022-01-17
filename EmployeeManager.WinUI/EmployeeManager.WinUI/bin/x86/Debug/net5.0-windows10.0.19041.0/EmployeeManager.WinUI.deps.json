@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "EmployeeManager.WinUI/1.0.0": {
+        "dependencies": {
+          "Microsoft.ProjectReunion.WinUI": "0.8.6",
+          "Microsoft.UI.Xaml": "2.7.0",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.22"
+        },
+        "runtime": {
+          "EmployeeManager.WinUI.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.22": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.19041.22",
+            "fileVersion": "10.0.19041.22"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.37231"
+          }
+        }
+      },
+      "Microsoft.ProjectReunion.WinUI/0.8.6": {
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.2112"
+          }
+        }
+      },
+      "Microsoft.UI.Xaml/2.7.0": {}
+    }
+  },
+  "libraries": {
+    "EmployeeManager.WinUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.22": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.ProjectReunion.WinUI/0.8.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/rZgiPXLsnK/nLpHYA1goHVmANIHhVOM9+6g9GKnXVHFFvjWM4TppWBCz80HgK+epqH7p0NOWjJTgGZPd8JOIA==",
+      "path": "microsoft.projectreunion.winui/0.8.6",
+      "hashPath": "microsoft.projectreunion.winui.0.8.6.nupkg.sha512"
+    },
+    "Microsoft.UI.Xaml/2.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dB4im13tfmMgL/V3Ei+3kD2rUF+/lTxAmR4gjJ45l577eljHfdo/KUrxpq/3I1Vp6e5GCDG1evDaEGuDxypLMg==",
+      "path": "microsoft.ui.xaml/2.7.0",
+      "hashPath": "microsoft.ui.xaml.2.7.0.nupkg.sha512"
+    }
+  }
+}
